@@ -19,6 +19,8 @@
     
 }
 
+.rectangle:hover {
+}
 input {
     display: inline;
     margin-left: auto;
@@ -73,4 +75,44 @@ input {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #000;
+}
+
+.apps {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 2px;
+    
+
+}
+
+.icon {
+    object-fill: cover;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 7px;
+}
