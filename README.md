@@ -1,2 +1,2 @@
-This project serves as a practical application of the things I have learned regarding HTML and CSS. The project is a replica of the 
-Google homepage google.com.
+This project serves as an application of HTML and CSS to demonstrate an understanding of the languages. This is a replica of the 
+Google homepage.
