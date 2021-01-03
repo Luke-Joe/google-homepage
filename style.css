@@ -78,9 +78,8 @@ input {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 8px 0px 0px 0px;
     overflow: hidden;
-
 }
 
 li {
@@ -95,7 +94,7 @@ li a {
     text-decoration: none;
     font-size: 13px;
     font-family: arial, sans-serif;
-    color: #000;
+    color: black;
 }
 
 .apps {
@@ -108,11 +107,40 @@ li a {
 }
 
 .icon {
-    object-fill: cover;
-
     width: 32px;
     height: 32px;
     border-radius: 50%;
     position: relative;
     bottom: 7px;
 }
+
+.country {
+    text-decoration: none;
+    background-color: rgb(235, 235, 235);
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 2.5rem;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footerList {
+    text-decoration: none;
+    background-color: rgb(235, 235, 235);
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footer {
+    color: #70757a;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
