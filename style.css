@@ -1,0 +1,76 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 45px;
+    width: 15%;
+    
+}
+
+.rectangle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 40px;
+    border: 1px lightgrey solid;
+    border-radius: 20px;
+    
+}
+
+input {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+    border: none;
+     
+
+}
+
+.search{
+    padding-top: 10px;
+    padding-left: 12px;
+    width: 20px;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+.searchButton{
+    font-family: arial, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.mic {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 13px;
+}
+
+.searchButton:hover {
+    border: 1px solid rgb(211, 210, 210);
+}
+
+.language {
+    padding-top: 25px;
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+
