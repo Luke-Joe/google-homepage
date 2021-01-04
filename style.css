@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     display: block;
     margin-left: auto;
@@ -8,7 +13,7 @@
     
 }
 
-.rectangle {
+.searchBox {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -19,8 +24,11 @@
     
 }
 
-.rectangle:hover {
+.searchBox:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
 }
+
 input {
     display: inline;
     margin-left: auto;
@@ -30,17 +38,15 @@ input {
     position: relative;
     bottom: 5px;
     border: none;
-     
-
 }
 
-.search{
+.magnify {
     padding-top: 10px;
     padding-left: 12px;
     width: 20px;
 }
 
-.center{
+.center {
     margin: auto;
     text-align: center;
 }
@@ -139,8 +145,4 @@ li a {
 }
 
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
 
